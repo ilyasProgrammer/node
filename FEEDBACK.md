@@ -2,7 +2,7 @@
 
 ### Fixes
 
-- [ ] In a javascript project you never commit the `node_modules` to git. [Read here why.](https://flaviocopes.com/should-commit-node-modules-git/). Please remove the node_modules folder appropriately using git commands. [Link here](https://stackoverflow.com/questions/50675829/remove-node-modules-from-git-in-vscode).
+- [ ] In a javascript project you never commit the `node_modules` to git. [Read here why](https://flaviocopes.com/should-commit-node-modules-git/). Please remove the node_modules folder appropriately using git commands. [Link here](https://stackoverflow.com/questions/50675829/remove-node-modules-from-git-in-vscode).
 
 ### Feature requests
 

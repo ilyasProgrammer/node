@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17d64abb-e776-46a3-9741-63972e58392f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/company.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/companies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/workers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cl: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cl: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cl: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="amcrm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cl: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1WyVE2ui6cocoxfOBQztutRTQl2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.10.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.www.js">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="www.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www.js" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www.js" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11099079" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17d64abb-e776-46a3-9741-63972e58392f" name="Default Changelist" comment="" />
+      <created>1580121706332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580121706332</updated>
+      <workItem from="1580121710778" duration="3754000" />
+      <workItem from="1580139657205" duration="10582000" />
+      <workItem from="1580192738842" duration="8416000" />
+      <workItem from="1580272425620" duration="7349000" />
+      <workItem from="1580284325138" duration="1026000" />
+      <workItem from="1580298564633" duration="598000" />
+      <workItem from="1580442273915" duration="598000" />
+      <workItem from="1580445521258" duration="51000" />
+      <workItem from="1580445584909" duration="1789000" />
+      <workItem from="1580481796540" duration="598000" />
+      <workItem from="1580710514883" duration="2707000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1580139890998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580139890999</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ADD: depends">
+      <created>1580186531789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580186531789</updated>
+    </task>
+    <task id="LOCAL-00003" summary="UPD: companies endpoints">
+      <created>1580194665059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580194665060</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ADD: SQL initialization">
+      <created>1580215041369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580215041369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="ADD: depends" />
+    <MESSAGE value="UPD: companies endpoints" />
+    <MESSAGE value="ADD: SQL initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD: SQL initialization" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="554" y="217" width="802" height="649" key="#Usage_Scope" timestamp="1580271380430">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="554" y="217" width="802" height="649" key="#Usage_Scope/0.31.1920.1049@0.31.1920.1049" timestamp="1580271380430" />
+    <state x="555" y="217" width="802" height="649" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580126732634">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="555" y="217" width="802" height="649" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1580126732634" />
+    <state x="643" y="359" width="626" height="365" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580284645928">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="643" y="359" width="626" height="365" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1580284645928" />
+    <state x="495" y="201" width="1070" height="720" key="#xdebugger.evaluate" timestamp="1580712193027">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="495" y="201" width="1070" height="720" key="#xdebugger.evaluate/0.31.1920.1049@0.31.1920.1049" timestamp="1580712193027" />
+    <state x="504" y="148" width="904" height="786" key="CommitChangelistDialog2" timestamp="1580215041266">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="504" y="148" width="904" height="786" key="CommitChangelistDialog2/0.31.1920.1049@0.31.1920.1049" timestamp="1580215041266" />
+    <state x="731" y="284" width="432" height="460" key="FileChooserDialogImpl" timestamp="1580271189274">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="731" y="284" width="432" height="460" key="FileChooserDialogImpl/0.31.1920.1049@0.31.1920.1049" timestamp="1580271189274" />
+    <state width="1341" height="296" key="GridCell.Tab.0.bottom" timestamp="1580713226016">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="296" key="GridCell.Tab.0.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1580713226016" />
+    <state width="1341" height="296" key="GridCell.Tab.0.center" timestamp="1580713226007">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="296" key="GridCell.Tab.0.center/0.31.1920.1049@0.31.1920.1049" timestamp="1580713226007" />
+    <state width="1341" height="296" key="GridCell.Tab.0.left" timestamp="1580713226006">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="296" key="GridCell.Tab.0.left/0.31.1920.1049@0.31.1920.1049" timestamp="1580713226006" />
+    <state width="1341" height="296" key="GridCell.Tab.0.right" timestamp="1580713226007">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="296" key="GridCell.Tab.0.right/0.31.1920.1049@0.31.1920.1049" timestamp="1580713226007" />
+    <state width="1341" height="249" key="GridCell.Tab.1.bottom" timestamp="1580713225994">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.1.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225994" />
+    <state width="1341" height="249" key="GridCell.Tab.1.center" timestamp="1580713225993">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.1.center/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225993" />
+    <state width="1341" height="249" key="GridCell.Tab.1.left" timestamp="1580713225993">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.1.left/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225993" />
+    <state width="1341" height="249" key="GridCell.Tab.1.right" timestamp="1580713225994">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.1.right/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225994" />
+    <state width="1341" height="249" key="GridCell.Tab.2.bottom" timestamp="1580713225996">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.2.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225996" />
+    <state width="1341" height="249" key="GridCell.Tab.2.center" timestamp="1580713225995">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.2.center/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225995" />
+    <state width="1341" height="249" key="GridCell.Tab.2.left" timestamp="1580713225995">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.2.left/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225995" />
+    <state width="1341" height="249" key="GridCell.Tab.2.right" timestamp="1580713225995">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.2.right/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225995" />
+    <state width="1341" height="249" key="GridCell.Tab.3.bottom" timestamp="1580713225997">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.3.bottom/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225997" />
+    <state width="1341" height="249" key="GridCell.Tab.3.center" timestamp="1580713225997">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.3.center/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225997" />
+    <state width="1341" height="249" key="GridCell.Tab.3.left" timestamp="1580713225996">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.3.left/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225996" />
+    <state width="1341" height="249" key="GridCell.Tab.3.right" timestamp="1580713225997">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="1341" height="249" key="GridCell.Tab.3.right/0.31.1920.1049@0.31.1920.1049" timestamp="1580713225997" />
+    <state x="810" y="267" width="292" height="549" key="RollbackChangesDialog" timestamp="1580182082627">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="810" y="267" width="292" height="549" key="RollbackChangesDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1580182082627" />
+    <state x="441" y="191" key="SettingsEditor" timestamp="1580271382684">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="441" y="191" key="SettingsEditor/0.31.1920.1049@0.31.1920.1049" timestamp="1580271382684" />
+    <state x="555" y="291" width="802" height="500" key="Vcs.Push.Dialog.v2" timestamp="1580194716654">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="555" y="291" width="802" height="500" key="Vcs.Push.Dialog.v2/0.31.1920.1049@0.31.1920.1049" timestamp="1580194716654" />
+    <state width="963" height="527" key="XDebugger.FullValuePopup" timestamp="1580189887573">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state width="963" height="527" key="XDebugger.FullValuePopup/0.31.1920.1049@0.31.1920.1049" timestamp="1580189887573" />
+    <state x="818" y="331" width="393" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1580711974851">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="818" y="331" width="393" height="421" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.31.1920.1049@0.31.1920.1049" timestamp="1580711974851" />
+    <state x="535" y="212" width="842" height="659" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580284423758">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="535" y="212" width="842" height="659" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1580284423758" />
+    <state x="1" y="31" width="727" height="530" key="find.popup" timestamp="1580712005776">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="1" y="31" width="727" height="530" key="find.popup/0.31.1920.1049@0.31.1920.1049" timestamp="1580712005776" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/companies.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

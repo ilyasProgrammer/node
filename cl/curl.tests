@@ -1,6 +1,0 @@
-curl http://localhost:3000/companies
-curl http://localhost:3000/companies/companies_and_users
-curl http://localhost:3000/companies/977/users
-curl -X POST -d "name=BOBBYS&email=sales@bobbys.com&phone=+71113332211" http://localhost:3000/companies
-curl -X PUT -d "name=Kramer" -d "email=kramer@example.com&phone=0987" http://localhost:3000/companies/2827
-curl -X DELETE http://localhost:3000/companies/2224

@@ -56,6 +56,20 @@ exports.getCompaniesWithWorkers = (req, res) => {
         });
       });
 };
+exports.getWorkersOfCompany = (req, res) => {
+  const companyId = req.params.companyId;
+  var condition = companyId ? { id: companyId} : null;
+  Company.findAll({ where: condition, include: [{model: Worker}]})
+      .then(data => {
+        res.send(data);
+      })
+      .catch(err => {
+        res.status(500).send({
+          message:
+              err.message || "Some error occurred while retrieving WorkersOfCompany."
+        });
+      });
+};
 exports.updateCompany = (req, res) => {
   const id = req.params.id;
 
@@ -111,7 +125,7 @@ exports.createWorker = (req, res) => {
     });
     return;
   }
-  Worker.create({name: req.body.name, email: req.body.email})
+  Worker.create({name: req.body.name, email: req.body.email, CompanyId: req.body.CompanyId})
       .then(data => {
         res.send(data);
       })

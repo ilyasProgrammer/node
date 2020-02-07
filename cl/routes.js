@@ -8,6 +8,7 @@ module.exports = app => {
   router.put('/companies/:id', contr.updateCompany);
   router.delete('/companies/:id', contr.deleteCompany);
   router.get('/companies_and_workers', contr.getCompaniesWithWorkers);
+  router.get('/companies/:companyId/users', contr.getWorkersOfCompany);
   // router.get('/companies/:companyId/users', contr.getUsersOfCompany);
   // Workers
   router.get('/workers', contr.findAllWorkers);

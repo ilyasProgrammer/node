@@ -22,4 +22,7 @@ db.user = require("./user.js")(sequelize, Sequelize);
 db.company = require("./company.js")(sequelize, Sequelize);
 db.worker = require("./worker.js")(sequelize, Sequelize);
 
+const models = {Worker: db.worker, Company: db.company, User: db.user};
+db.company.associate(models);
+
 module.exports = db;

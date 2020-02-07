@@ -1,0 +1,21 @@
+curl http://localhost:3000/companies
+curl http://localhost:3000/companies/companies_and_users
+curl http://localhost:3000/companies/977/users
+
+curl -X POST -d "name=BOBBYS&email=sales@bobbys.com&phone=+71113332211" http://localhost:3000/companies
+curl -X POST -d "name=MACDAC&email=mc@mac.com&phone=+1111111" http://localhost:3000/companies
+curl -X PUT -d "name=Kramer" -d "email=kramer@example.com&phone=0987" http://localhost:3000/companies/1
+curl -X DELETE http://localhost:3000/companies/1
+
+
+curl -X POST -d "name=bobbys&email=sales@bobbys.com&phone=+11111111111" http://localhost:3000/companies
+curl -X POST -d "name=mcdac&email=sales@mcdac.com&phone=+22222222222" http://localhost:3000/companies
+curl -X POST -d "name=lame&email=sales@lame.com&phone=+33333333333" http://localhost:3000/companies
+
+curl -X POST -d "name=Jimmy&email=jim@bobbys.com&CompanyId=1" http://localhost:3000/workers
+curl -X POST -d "name=Billy&email=bill@bobbys.com&CompanyId=1" http://localhost:3000/workers
+curl -X POST -d "name=Adam&email=adam@mcdac.com&CompanyId=2" http://localhost:3000/workers
+
+curl http://localhost:3000/companies
+
+curl http://localhost:3000/workers

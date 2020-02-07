@@ -1,51 +1,32 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const { celebrate, Joi, errors, Segments } = require('celebrate');
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
 const app = express();
-const db = require('./queries');
-const port = 3000;
 
+var corsOptions = {
+  origin: "http://localhost:3000"
+};
+
+app.use(cors(corsOptions));
+
+// parse requests of content-type - application/json
 app.use(bodyParser.json());
-app.use(
-  bodyParser.urlencoded({
-    extended: true,
-  })
-);
 
-app.get('/', (request, response) => {
-  response.json({ info: 'Node.js, Express, and Postgres API' })
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }));
+
+const db = require("./models");
+
+db.sequelize.sync();
+
+app.get("/", (req, res) => {
+  res.json({ message: "Welcome to my application." });
 });
 
-const customersCreateValidator = celebrate({
-    [Segments.BODY]: Joi.object().keys({
-        email: Joi.string().email().required(),
-        name: Joi.string().required(),
-        phone: Joi.string().required(),
-    }),
-});
-const updateCreateValidator = celebrate({
-    [Segments.BODY]: Joi.object().keys({
-        email: Joi.string().email(),
-        name: Joi.string(),
-        phone: Joi.string(),
-    }),
-    [Segments.PARAMS]: {
-        id: Joi.number().integer().required()
-    }
-});
+require("./routes.js")(app);
 
-app.get('/companies', db.getCompanies);
-app.post('/companies', customersCreateValidator, db.createCompany);
-app.put('/companies/:id', updateCreateValidator, db.updateCompany);
-app.delete('/companies/:id', db.deleteCompany);
-app.get('/companies_and_users', db.getCompaniesWithUsers);
-app.get('/companies/:companyId/users', db.getUsersOfCompany);
-app.get('/users', db.getUsers);
-app.get('/users/:id', db.getUserById);
-app.post('/users', db.createUser);
-app.put('/users/:id', db.updateUser);
-app.delete('/users/:id', db.deleteUser);
-
-app.listen(port, () => {
-  console.log(`App running on port ${port}.`)
+// set port, listen for requests
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
 });
